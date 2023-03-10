@@ -171,8 +171,20 @@ li a {
     height: 600px;
 }
 
+.formeVerte{
+    position: absolute;
+    left: 0;
+    top: 325px;
+}
+
+.formeBleu{
+    position: absolute;
+    right: 0;
+    top: 250px;
+}
+
 /*Deuxième Case*/
-.case2 {
+.case2{
     width: 100%;
 }
 
