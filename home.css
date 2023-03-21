@@ -78,7 +78,7 @@ li a {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    height: 41px;
+    height: 40px;
     width: 125px;
     border: 0;
     align-self: center;
@@ -92,7 +92,9 @@ li a {
 }
 
 .btnNavBarre:hover{
-    width: 175px;
+    background-color: #1064cb;
+    width: 150px;
+    height: 60px;
     transition: 1s;
 }
 
@@ -145,7 +147,7 @@ li a {
 
 .btnCase1{
     background-color: 1090CB;
-    color: FFFFFF;
+    color: #FFFFFF;
     border-radius: 6px;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -161,14 +163,15 @@ li a {
 }
 
 .btnCase1:hover{
+    background-color: #1064cb;
     width: 250px;
+    height: 65px;
     transition: 1s;
 }
 
 .btn2Case1{
     background-color: white;
     color: 1090CB;
-    border-color: 1090CB;
     border-radius: 6px;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -184,6 +187,8 @@ li a {
 
 .btn2Case1:hover{
     width: 250px;
+    height: 65px;
+    border: 1px solid #1090CB;
     transition: 1s;
 }
 
@@ -219,14 +224,12 @@ li a {
 }
 
 .titrePres{
-    display: flex;
-    justify-content: flex-end;
+    margin: 0;
 }
 
 .txtPres{
-    display: flex;
     color: 969696;
-    justify-content: flex-end;
+    margin: 0;
 }
 
 .png{
@@ -235,16 +238,28 @@ li a {
     align-items: center;
 }
 
+.logoService{
+    display: flex;
+    align-items: center;
+}
+
+.infoService{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 1em;
+}
+
 .carree1{
     display: flex;
     background-color: EFEAFF;
-    width: 85px;
-    height: 85px;
+    width: 80px;
+    height: 80px;
     border-radius: 20px;
     justify-content: flex-start;
 }
 
 .pres1{
+    display: flex;
     width: 25%;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -252,10 +267,6 @@ li a {
     line-height: 24px;
     align-self: center;
     padding: 1em;
-}
-
-.Services1{
-    display: flex;
 }
 
 .carree2{
@@ -267,6 +278,7 @@ li a {
 }
 
 .pres2{
+    display: flex;
     width: 25%;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -285,6 +297,7 @@ li a {
 }
 
 .pres3{
+    display: flex;
     width: 25%;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -303,6 +316,7 @@ li a {
 }
 
 .pres4{
+    display: flex;
     width: 25%;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -626,6 +640,8 @@ li a {
 
 .btn1Case7:hover{
     width: 250px;
+    height: 65px;
+    background-color: #1064cb;
     transition: 1s;
 }
 
@@ -683,6 +699,8 @@ li a {
 
 .btn2Case7:hover{
     width: 250px;
+    height: 65px;
+    border: 1px solid #1064cb;
     transition: 1s;
 }
 
