@@ -2,7 +2,6 @@ body{
     margin: 0;
 }
 
-
 /*Barre de Navigation*/
 .header{
     display: flex;
@@ -111,7 +110,7 @@ li a {
 /*Première Case*/
 .case1{
     width: 100%;
-    background: radial-gradient(circle closest-side at 70% 20%, #FDFFEA 100px, #cfe8f4 200px, transparent 50%),
+    background: radial-gradient(circle closest-side at 70% 20%, #FDFFEA 100px, #cfe8f4 200px, transparent 25%),
                 radial-gradient(circle closest-side at 20% 30%, #EDEAFF 100px, #cfe8f4 200px);
 }
 
@@ -188,7 +187,7 @@ li a {
 .btn2Case1:hover{
     width: 250px;
     height: 65px;
-    border: 1px solid #1090CB;
+    border: 2px solid #1090CB;
     transition: 1s;
 }
 
@@ -251,7 +250,7 @@ li a {
 
 .carree1{
     display: flex;
-    background-color: EFEAFF;
+    background-color: #EFEAFF;
     width: 80px;
     height: 80px;
     border-radius: 20px;
@@ -271,7 +270,7 @@ li a {
 
 .carree2{
     display: flex;
-    background-color: ECFFDA;
+    background-color: #ECFFDA;
     width: 85px;
     height: 85px;
     border-radius: 20px;
@@ -290,7 +289,7 @@ li a {
 
 .carree3{
     display: flex;
-    background-color: DAE6FF;
+    background-color: #DAE6FF;
     width: 85px;
     height: 85px;
     border-radius: 20px;
@@ -309,7 +308,7 @@ li a {
 
 .carree4{
     display: flex;
-    background-color: FFE5DA;
+    background-color: #FFE5DA;
     width: 85px;
     height: 85px;
     border-radius: 20px;
@@ -327,7 +326,7 @@ li a {
 }
 
 .separation{
-    background-color: C4C4C4;
+    background-color: #C4C4C4;
     height: 0.7px;
     border: 0px;
     margin: 0;
@@ -367,7 +366,7 @@ li a {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    color: 868686;  
+    color: #868686;  
     justify-content: center; 
     margin: 0;
 }
@@ -424,7 +423,7 @@ li a {
     border-radius: 50%;
     width: 60px;
     height: 60px;
-    background-color: 08D3BB;
+    background-color: #08D3BB;
 }
 
 .svgHappy{
@@ -442,13 +441,13 @@ li a {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    color: 545454;
+    color: #545454;
     margin: 0;
 }
 
 .titreCase4{
     font-family: 'Poppins', sans-serif;
-    color: 545454;
+    color: #545454;
     margin: 0;
 }
 
@@ -457,7 +456,7 @@ li a {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    color: 545454;
+    color: #545454;
 }
 
 .pngTel{
@@ -517,7 +516,7 @@ li a {
     border-radius: 50%;
     width: 60px;
     height: 60px;
-    background-color: 1090CB;
+    background-color: #1090CB;
     margin: 0;
 }
 
@@ -528,13 +527,13 @@ li a {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    color: 545454;
+    color: #545454;
     margin: 0;
 }
 
 .titreCase5{
     font-family: 'Poppins', sans-serif;
-    color: 545454;
+    color: #545454;
 }
 
 .txtCase5{
@@ -542,7 +541,7 @@ li a {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    color: 545454;
+    color: #545454;
 }
 
 .pngWeb{
@@ -597,13 +596,12 @@ li a {
     margin: 0;
 }
 
-
 .rond3{
     display: flex;
     border-radius: 50%;
     width: 60px;
     height: 60px;
-    background-color: 9208D3;
+    background-color: #9208D3;
     margin: 0;
 }
 
@@ -614,13 +612,13 @@ li a {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    color: 545454;
+    color: #545454;
     margin: 0;
 }
 
 .titreCase6{
     font-family: 'Poppins', sans-serif;
-    color: 545454;
+    color: #545454;
 }
 
 .txtCase6{
@@ -628,7 +626,7 @@ li a {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    color: 545454;
+    color: #545454;
 }
 
 .pngHommeVr{
@@ -655,7 +653,7 @@ li a {
     display: flex;
     width: 500px;
     height: 450px;
-    background-color: F4F4F4;
+    background-color: #F4F4F4;
     border-radius: 20px;
     padding: 1em;
     justify-content: center;
@@ -677,7 +675,7 @@ li a {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    color: 545454;
+    color: #545454;
     justify-content: center;
     text-align: center;
     line-height: 2em;
@@ -685,7 +683,7 @@ li a {
 
 .btn1Case7 {
     display: flex;
-    background-color: 1090CB;
+    background-color: #1090CB;
     color: white;
     border-radius: 6px;
     font-family: 'Poppins', sans-serif;
@@ -715,7 +713,7 @@ li a {
     display: flex;
     width: 575px;
     height: 450px;
-    background-color: 1090CB;
+    background-color: #1090CB;
     border-radius: 20px;
     padding: 1em;
     justify-content: center;
@@ -746,7 +744,7 @@ li a {
 .btn2Case7 {
     display: flex;
     background-color: white;
-    color: 1090CB;
+    color: #1090CB;
     border-radius: 6px;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -807,7 +805,7 @@ li a {
 /*Neuvième Case*/
 .case9{
     width: 100%;
-    background-color: cfe8f4;
+    background-color: #cfe8f4;
 }
 
 .conteneurCase9{
@@ -864,6 +862,7 @@ li a {
 
 .btnCase9:hover{
     width: 225px;
+    background-color: rgb(69, 68, 68);
     transition: 1s;
 }
 
@@ -941,7 +940,7 @@ li a {
 .lienReseaux{
     display: flex;
     width: 100%;
-    justify-content: flex-end;
+    justify-content: space-around;
     align-items: flex-end;
 }
 
