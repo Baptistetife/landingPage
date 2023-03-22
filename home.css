@@ -111,7 +111,7 @@ li a {
 /*Première Case*/
 .case1{
     width: 100%;
-    background: radial-gradient(circle closest-side at 65% 20%, #FDFFEA 100px, #cfe8f4 200px, transparent 50%),
+    background: radial-gradient(circle closest-side at 70% 20%, #FDFFEA 100px, #cfe8f4 200px, transparent 50%),
                 radial-gradient(circle closest-side at 20% 30%, #EDEAFF 100px, #cfe8f4 200px);
 }
 
@@ -121,7 +121,7 @@ li a {
     margin-left: auto;
     margin-right: auto;
     padding: 3em;
-    justify-content: flex-start;
+    justify-content: space-between;
 }
 
 .contenuCase1{
@@ -194,7 +194,7 @@ li a {
 
 .pngHommeChaise{
     display: flex;
-    height: 600px;
+    height: 500px;
 }
 
 .formeVerte{
@@ -232,7 +232,7 @@ li a {
     margin: 0;
 }
 
-.png{
+.svg{
     display: flex;
     margin: auto;
     align-items: center;
@@ -385,6 +385,7 @@ li a {
     margin-right: auto;
     padding: 3em;
     justify-content: flex-start;
+    align-items: center;
 }
 
 .contenuCase4{
@@ -392,13 +393,30 @@ li a {
 }
 
 .presCase4{
+    display: flex;
     width: 100%;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     align-self: center;
-    padding: 1em;
+    padding-bottom: 1em;
+}
+
+.logoProduit1{
+    display: flex;
+    align-items: center;
+}
+
+.presProduit1{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 1em;
+}
+
+.titrePresProduit1{
+    display: flex;
+    margin: 0;
 }
 
 .rond1{
@@ -409,7 +427,7 @@ li a {
     background-color: 08D3BB;
 }
 
-.pngHappy{
+.svgHappy{
     width: 30px;
     height: 30px;
     display: flex;
@@ -419,18 +437,19 @@ li a {
 
 .txtPresCase4{
     display: flex;
-    justify-content: flex-end;
-    width: 50%;
+    width: 100%;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: 545454;
+    margin: 0;
 }
 
 .titreCase4{
     font-family: 'Poppins', sans-serif;
     color: 545454;
+    margin: 0;
 }
 
 .txtCase4{
@@ -443,6 +462,7 @@ li a {
 
 .pngTel{
     display: flex;
+    height: 500px;
 }
 
 /*Cinquième Case*/
@@ -458,6 +478,7 @@ li a {
     margin-right: auto;
     padding: 3em;
     justify-content: flex-end;
+    align-items: center;
 }
 
 .contenuCase5{
@@ -465,13 +486,30 @@ li a {
 }
 
 .presCase5{
+    display: flex;
     width: 100%;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     align-self: center;
-    padding: 1em;
+    padding-bottom: 1em;
+}
+
+.logoProduit2{
+    display: flex;
+    align-items: center;
+}
+
+.presProduit2{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 1em;
+}
+
+.titrePresProduit2{
+    display: flex;
+    margin: 0;
 }
 
 .rond2{
@@ -480,14 +518,18 @@ li a {
     width: 60px;
     height: 60px;
     background-color: 1090CB;
+    margin: 0;
 }
 
 .txtPresCase5{
+    display: flex;
+    width: 100%;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: 545454;
+    margin: 0;
 }
 
 .titreCase5{
@@ -505,6 +547,7 @@ li a {
 
 .pngWeb{
     display: flex;
+    height: 500px;
 }
 
 /*Sixième Case*/
@@ -520,6 +563,7 @@ li a {
     margin-right: auto;
     padding: 3em;
     justify-content: flex-start;
+    align-items: center;
 }
 
 .contenuCase6{
@@ -527,14 +571,32 @@ li a {
 }
 
 .presCase6{
+    display: flex;
     width: 100%;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     align-self: center;
-    padding: 1em;
+    padding-bottom: 1em;
 }
+
+.logoProduit3{
+    display: flex;
+    align-items: center;
+}
+
+.presProduit3{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 1em;
+}
+
+.titrePresProduit3{
+    display: flex;
+    margin: 0;
+}
+
 
 .rond3{
     display: flex;
@@ -542,14 +604,18 @@ li a {
     width: 60px;
     height: 60px;
     background-color: 9208D3;
+    margin: 0;
 }
 
 .txtPresCase6{
+    display: flex;
+    width: 100%;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: 545454;
+    margin: 0;
 }
 
 .titreCase6{
@@ -567,7 +633,7 @@ li a {
 
 .pngHommeVr{
     display: flex;
-    width: 60%;
+    height: 500px;
 }
 
 /*Septième Case*/
@@ -710,7 +776,7 @@ li a {
     width: 120px;
     height: auto;
     left: 75%;
-    top: 313%;
+    top: 305%;
 }
 
 /*Huitième Case*/
@@ -806,7 +872,7 @@ li a {
     width: 70px;
     height: auto;
     left: 20%;
-    top: 424%;  
+    top: 416%;  
 }
 
 .paiChart{
@@ -814,7 +880,7 @@ li a {
     width: 70px;
     height: auto;
     left: 70%;
-    top: 433%;  
+    top: 425%;  
 }
 
 /*Footer*/
